@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "2018 Comp Mech"
-authors: []
-date: 2019-10-28T14:52:54+01:00
-doi: ""
+title: "Toward transient finite element simulation of thermal deformation of machine tools in real-time"
+authors: [Andreas Naumann and Daniel Ruprecht and Joerg Wensch]
+date: 2018-01-10
+doi: "10.1007/s00466-018-1540-6"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2019-10-28T14:52:54+01:00
@@ -13,13 +13,13 @@ publishDate: 2019-10-28T14:52:54+01:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["0"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Computational Mechanics"
+publication_short: "Computational Mechanics"
 
-abstract: ""
+abstract: "Finite element models without simplifying assumptions can accurately describe the spatial and temporal distribution of heat in machine tools as well as the resulting deformation. In principle, this allows to correct for displacements of the Tool Centre Point and enables high precision manufacturing. However, the computational cost of FE models and restriction to generic algorithms in commercial tools like ANSYS prevents their operational use since simulations have to run faster than real-time. For the case where heat diffusion is slow compared to machine movement, we introduce a tailored implicit–explicit multi-rate time stepping method of higher order based on spectral deferred corrections. Using the open-source FEM library DUNE, we show that fully coupled simulations of the temperature field are possible in real-time for a machine consisting of a stock sliding up and down on rails attached to a stand."
 
 # Summary. An optional shortened abstract.
 summary: ""

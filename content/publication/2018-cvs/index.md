@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "2018 Cvs"
-authors: []
-date: 2019-10-28T14:51:03+01:00
-doi: ""
+title: "Wave propagation characteristics of Parareal"
+authors: [Daniel Ruprecht]
+date: 2018-05-29
+doi: "10.1007/s00791-018-0296-z"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2019-10-28T14:51:03+01:00
@@ -13,13 +13,13 @@ publishDate: 2019-10-28T14:51:03+01:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["0"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Computing and Visualization in Science"
+publication_short: "Computing and Visualization in Science"
 
-abstract: ""
+abstract: "The paper derives and analyses the (semi-)discrete dispersion relation of the Parareal parallel-in-time integration method. It investigates Parareal’s wave propagation characteristics with the aim to better understand what causes the well documented stability problems for hyperbolic equations. The analysis shows that the instability is caused by convergence of the amplification factor to the exact value from above for medium to high wave numbers. Phase errors in the coarse propagator are identified as the culprit, which suggests that specifically tailored coarse level methods could provide a remedy."
 
 # Summary. An optional shortened abstract.
 summary: ""

@@ -40,7 +40,7 @@ url_pdf:
 url_code:
 url_dataset:
 url_poster:
-url_project: /project/epsrc_boris_sdc
+url_project:
 url_slides:
 url_source:
 url_video:
@@ -58,7 +58,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
+projects: [epsrc_boris_sdc]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

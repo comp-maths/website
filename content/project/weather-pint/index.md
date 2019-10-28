@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Advanced spark ignition engine thermodynamic analysis"
+title: "Parallel paradigms for numerical weather prediction"
 summary: ""
 authors: []
 tags: []
 categories: []
-date: 2019-10-28T16:14:50+01:00
+date: 2019-10-28T16:42:17+01:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
