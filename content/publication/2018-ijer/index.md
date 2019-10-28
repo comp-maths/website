@@ -1,9 +1,9 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "2019 Ijer"
+title: "2018 Ijer"
 authors: []
-date: 2019-10-28T14:43:36+01:00
+date: 2018-07-06
 doi: ""
 
 # Schedule page publish date (NOT publication's date).

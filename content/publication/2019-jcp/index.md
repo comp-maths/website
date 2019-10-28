@@ -3,7 +3,7 @@
 
 title: "An arbitrary order time-stepping algorithm for tracking particles in inhomogeneous magnetic fields"
 authors: [Krasymyr Tretiak and Daniel Ruprecht]
-date: 2019-10-24T14:30:50+02:00
+date: 2019-08-23
 doi: "10.1016/j.jcpx.2019.100036"
 
 # Schedule page publish date (NOT publication's date).
