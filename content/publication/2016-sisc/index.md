@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Spectral Deferred Corrections with Fast-wave Slow-wave Splitting"
-authors: []
+authors: [Daniel Ruprecht and Robert Speck]
 date: 2016-08-16
 doi: "10.1137/16M1060078"
 

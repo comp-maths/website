@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "2017 Parco"
-authors: []
-date: 2019-10-28T14:53:20+01:00
-doi: ""
+title: "Toward fault-tolerant parallel-in-time integration with PFASST"
+authors: [Robert Speck and Daniel Ruprecht]
+date: 2016-12-21
+doi: "10.1016/j.parco.2016.12.001"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2019-10-28T14:53:20+01:00
@@ -13,13 +13,13 @@ publishDate: 2019-10-28T14:53:20+01:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["0"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Parallel Computing"
+publication_short: "Parallel Computing"
 
-abstract: ""
+abstract: "We introduce and analyze different strategies for the parallel-in-time integration method PFASST to recover from hard faults and subsequent data loss. Since PFASST stores solutions at multiple time steps on different processors, information from adjacent steps can be used to recover after a processor has failed. PFASST’s multi-level hierarchy allows to use the coarse level for correcting the reconstructed solution, which can help to minimize overhead. A theoretical model is devised linking overhead to the number of additional PFASST iterations required for convergence after a fault. The potential efficiency of different strategies is assessed in terms of required additional iterations for examples of diffusive and advective type."
 
 # Summary. An optional shortened abstract.
 summary: ""
