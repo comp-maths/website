@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "2017 Ipccc"
-authors: []
-date: 2019-10-28T14:55:02+01:00
-doi: ""
+title: "Holistic data centres: Next generation data and thermal energy infrastructures"
+authors: [Paul Townend and Jie Xu and Jon Summers and Daniel Ruprecht and Harvey Thompson]
+date: 2017-01-19
+doi: "10.1109/PCCC.2016.7820603"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2019-10-28T14:55:02+01:00
@@ -13,13 +13,13 @@ publishDate: 2019-10-28T14:55:02+01:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["0"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "IEEE 35th International Performance Computing and Communications Conference (IPCCC)"
+publication_short: "IEEE 35th International Performance Computing and Communications Conference (IPCCC)"
 
-abstract: ""
+abstract: "Digital infrastructure is becoming more distributed and requiring more power for operation. At the same time, many countries are working to de-carbonise their energy, which will require electrical generation of heat for populated areas. What if this heat generation was combined with digital processing?"
 
 # Summary. An optional shortened abstract.
 summary: ""
