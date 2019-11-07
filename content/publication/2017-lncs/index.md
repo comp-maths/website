@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "2017 Lncs"
-authors: []
-date: 2019-10-28T14:54:47+01:00
-doi: ""
+title: "Shared Memory Pipelined Parareal"
+authors: [Daniel Ruprecht]
+date: 2017-08-01
+doi: "10.1007/978-3-319-64203-1_48"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2019-10-28T14:54:47+01:00
@@ -13,13 +13,13 @@ publishDate: 2019-10-28T14:54:47+01:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["0"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Lecture Notes in Computer Science"
+publication_short: "Lecture Notes in Computer Science"
 
-abstract: ""
+abstract: "For the parallel-in-time integration method Parareal, pipelining can be used to hide some of the cost of the serial correction step and improve its efficiency. The paper introduces a basic OpenMP implementation of pipelined Parareal and compares it to a standard MPI-based variant. Both versions yield almost identical runtimes, but, depending on the compiler, the OpenMP variant consumes about 7% less energy and has a significantly smaller memory footprint. However, its higher implementation complexity might make it difficult to use in legacy codes and in combination with spatial parallelisation."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -37,7 +37,7 @@ featured: false
 #   icon: twitter
 
 url_pdf:
-url_code:
+url_code: https://github.com/Parallel-in-Time/PararealF90
 url_dataset:
 url_poster:
 url_project:
