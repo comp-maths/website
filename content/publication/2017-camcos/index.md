@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "2017 Camcos"
-authors: []
-date: 2019-10-28T14:54:54+01:00
-doi: ""
+title: "Time-parallel gravitational collapse simulation"
+authors: [Andreas Kreienbuehl and Pietro Benedusi and Daniel Ruprecht and Rolf Krause]
+date: 2017-05-08
+doi: "10.2140/camcos.2017.12.109"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2019-10-28T14:54:54+01:00
@@ -13,16 +13,16 @@ publishDate: 2019-10-28T14:54:54+01:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["0"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Communications in Applied Mathematics and Computational Science"
+publication_short: "Communications in Applied Mathematics and Computational Science"
 
-abstract: ""
+abstract: "This article demonstrates the applicability of the parallel-in-time method Parareal to the numerical solution of the Einstein gravity equations for the spherical collapse of a massless scalar field. To account for the shrinking of the spatial domain in time, a tailored load balancing scheme is proposed and compared to load balancing based on number of time steps alone. The performance of Parareal is studied for both the subcritical and black hole case; our experiments show that Parareal generates substantial speedup and, in the supercritical regime, can reproduce Choptuik’s black hole mass scaling law."
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "This article demonstrates the applicability of the parallel-in-time method Parareal to the numerical solution of the Einstein gravity equations for the spherical collapse of a massless scalar field. To account for the shrinking of the spatial domain in time, a tailored load balancing scheme is proposed and compared to load balancing based on number of time steps alone. The performance of Parareal is studied for both the subcritical and black hole case; our experiments show that Parareal generates substantial speedup and, in the supercritical regime, can reproduce Choptuik’s black hole mass scaling law."
 
 tags: []
 categories: []
