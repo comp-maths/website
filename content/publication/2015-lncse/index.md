@@ -1,32 +1,32 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "A high-order boris integrator"
-authors: [Mathias Winkel and Robert Speck and Daniel Ruprecht]
-date: 2015-04-13
-doi: "10.1016/j.jcp.2015.04.022"
+title: "Convergence of Parareal for the Navier-Stokes Equations Depending on the Reynolds Number"
+authors: [Johannes Steiner and Daniel Ruprecht and Robert Speck and Rolf Krause]
+date: 2014-10-31
+doi: "10.1007/978-3-319-10705-9_19"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2019-11-07T16:07:11+01:00
+publishDate: 2019-11-08T11:39:25+01:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["2"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Journal of Computational Physics"
-publication_short: "Journal of Computational Physics"
+publication: "Lecture Notes in Computational Science and Engineering"
+publication_short: "Lecture Notes in Computational Science and Engineering"
 
-abstract: "This work introduces the high-order Boris-SDC method for integrating the equations of motion for electrically charged particles in electric and magnetic fields. Boris-SDC relies on a combination of the Boris-integrator with spectral deferred corrections (SDC). SDC can be considered as preconditioned Picard iteration to compute the stages of a collocation method. In this interpretation, inverting the preconditioner corresponds to a sweep with a low-order method. In Boris-SDC, the Boris method, a second-order Lorentz force integrator based on velocity-Verlet, is used as a sweeper/preconditioner. The presented method provides a generic way to extend the classical Boris integrator, which is widely used in essentially all particle-based plasma physics simulations involving magnetic fields, to a high-order method. Stability, convergence order and conservation properties of the method are demonstrated for different simulation setups. Boris-SDC reproduces the expected high order of convergence for a single particle and for the center-of-mass of a particle cloud in a Penning trap and shows good long-term energy stability."
+abstract: "The paper presents first a linear stability analysis for the time-parallel Parareal method, using an IMEX Euler as coarse and a Runge-Kutta-3 method as fine propagator, confirming that dominant imaginary eigenvalues negatively affect Parareal’s convergence. This suggests that when Parareal is applied to the nonlinear Navier-Stokes equations, problems for small viscosities could arise. Numerical results for a driven cavity benchmark are presented, confirming that Parareal’s convergence can indeed deteriorate as viscosity decreases and the flow becomes increasingly dominated by convection. The effect is found to strongly depend on the spatial resolution."
 
 # Summary. An optional shortened abstract.
 summary: ""
 
 tags: []
 categories: []
-featured: true
+featured: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
@@ -58,7 +58,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: [epsrc_boris_sdc]
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

@@ -1,13 +1,13 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "A high-order boris integrator"
-authors: [Mathias Winkel and Robert Speck and Daniel Ruprecht]
-date: 2015-04-13
-doi: "10.1016/j.jcp.2015.04.022"
+title: "Numerical simulation of skin transport using Parareal"
+authors: [Andreas Kreienbuehl and Arne Naegel and Daniel Ruprecht and Robert Speck and Gabriel Wittum and Rolf Krause]
+date: 2015-08-15
+doi: "10.1007/s00791-015-0246-y"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2019-11-07T16:07:11+01:00
+publishDate: 2019-11-08T11:51:00+01:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,17 +16,17 @@ publishDate: 2019-11-07T16:07:11+01:00
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Journal of Computational Physics"
-publication_short: "Journal of Computational Physics"
+publication: "Computing and Visualization in Science"
+publication_short: "Computing and Visualization in Science"
 
-abstract: "This work introduces the high-order Boris-SDC method for integrating the equations of motion for electrically charged particles in electric and magnetic fields. Boris-SDC relies on a combination of the Boris-integrator with spectral deferred corrections (SDC). SDC can be considered as preconditioned Picard iteration to compute the stages of a collocation method. In this interpretation, inverting the preconditioner corresponds to a sweep with a low-order method. In Boris-SDC, the Boris method, a second-order Lorentz force integrator based on velocity-Verlet, is used as a sweeper/preconditioner. The presented method provides a generic way to extend the classical Boris integrator, which is widely used in essentially all particle-based plasma physics simulations involving magnetic fields, to a high-order method. Stability, convergence order and conservation properties of the method are demonstrated for different simulation setups. Boris-SDC reproduces the expected high order of convergence for a single particle and for the center-of-mass of a particle cloud in a Penning trap and shows good long-term energy stability."
+abstract: "In silico investigation of skin permeation is an important but also computationally demanding problem. To resolve all scales involved in full detail will not only require exascale computing capacities but also suitable parallel algorithms. This article investigates the applicability of the time-parallel Parareal algorithm to a brick and mortar setup, a precursory problem to skin permeation. The C++ library Lib4PrM implementing Parareal is combined with the UG4 simulation framework, which provides the spatial discretization and parallelization. The combination’s performance is studied with respect to convergence and speedup. It is confirmed that anisotropies in the domain and jumps in diffusion coefficients only have a minor impact on Parareal’s convergence. The influence of load imbalances in time due to differences in number of iterations required by the spatial solver as well as spatio-temporal weak scaling is discussed."
 
 # Summary. An optional shortened abstract.
 summary: ""
 
 tags: []
 categories: []
-featured: true
+featured: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
@@ -58,7 +58,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: [epsrc_boris_sdc]
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
