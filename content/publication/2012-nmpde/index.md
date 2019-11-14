@@ -1,13 +1,13 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "A high-order boris integrator"
-authors: [Mathias Winkel and Robert Speck and Daniel Ruprecht]
-date: 2015-04-13
-doi: "10.1016/j.jcp.2015.04.022"
+title: "Transparent boundary conditions based on the pole condition for time-dependent, two-dimensional problems"
+authors: [Daniel Ruprecht, Achim Schädle, Frank Schmidt]
+date: 2012-12-18
+doi: "10.1002/num.21759"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2019-11-07T16:07:11+01:00
+publishDate: 2019-11-14T12:06:26+01:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,10 +16,10 @@ publishDate: 2019-11-07T16:07:11+01:00
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Journal of Computational Physics"
-publication_short: "Journal of Computational Physics"
+publication: "Numerical Methods for Partial Differential Equations"
+publication_short: "Numerical Methods for Partial Differential Equations"
 
-abstract: "This work introduces the high-order Boris-SDC method for integrating the equations of motion for electrically charged particles in electric and magnetic fields. Boris-SDC relies on a combination of the Boris-integrator with spectral deferred corrections (SDC). SDC can be considered as preconditioned Picard iteration to compute the stages of a collocation method. In this interpretation, inverting the preconditioner corresponds to a sweep with a low-order method. In Boris-SDC, the Boris method, a second-order Lorentz force integrator based on velocity-Verlet, is used as a sweeper/preconditioner. The presented method provides a generic way to extend the classical Boris integrator, which is widely used in essentially all particle-based plasma physics simulations involving magnetic fields, to a high-order method. Stability, convergence order and conservation properties of the method are demonstrated for different simulation setups. Boris-SDC reproduces the expected high order of convergence for a single particle and for the center-of-mass of a particle cloud in a Penning trap and shows good long-term energy stability."
+abstract: "The pole condition approach for deriving transparent boundary conditions is extended to the time‐dependent, two‐dimensional case. Nonphysical modes of the solution are identified by the position of poles of the solution's spatial Laplace transform in the complex plane. By requiring the Laplace transform to be analytic on some problem‐dependent complex half‐plane, these modes can be suppressed. The resulting algorithm computes a finite number of coefficients of a series expansion of the Laplace transform, thereby providing an approximation to the exact boundary condition. The resulting error decays super‐algebraically with the number of coefficients, so relatively few additional degrees of freedom are sufficient to reduce the error to the level of the discretization error in the interior of the computational domain. The approach shows good results for the Schrödinger and the drift‐diffusion equation but, in contrast to the one‐dimensional case, exhibits instabilities for the wave and Klein–Gordon equation. Numerical examples are shown that demonstrate the good performance in the former and the instabilities in the latter case."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -58,7 +58,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: [epsrc_boris_sdc]
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
