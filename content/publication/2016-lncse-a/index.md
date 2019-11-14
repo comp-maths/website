@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Inexact Spectral Deferred Corrections"
-authors: []
+authors: [Robert Speck, Daniel Ruprecht, Michael Minion, Matthew Emmett, Rolf Krause]
 date: 2016-01-01
 doi: "10.1007/978-3-319-18827-0_39"
 
@@ -13,13 +13,13 @@ publishDate: 2019-11-07T16:03:00+01:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["0"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Lecture Notes in Computational Science and Engineering"
+publication_short: "Lecture Notes in Computational Science and Engineering"
 
-abstract: ""
+abstract: "Implicit integration methods based on collocation are attractive for a number of reasons, e.g. their ideal (for Gauss-Legendre nodes) or near ideal (Gauss-Radau or Gauss-Lobatto nodes) order and stability properties. However, straightforward application of a collocation formula with M nodes to an initial value problem with dimension d requires the solution of one large Md × Md system of nonlinear equations."
 
 # Summary. An optional shortened abstract.
 summary: ""
