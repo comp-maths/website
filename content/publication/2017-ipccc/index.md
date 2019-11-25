@@ -36,7 +36,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: http://eprints.whiterose.ac.uk/117909/1/IPCCC-Poster-Submission.pdf
 url_code:
 url_dataset:
 url_poster:
